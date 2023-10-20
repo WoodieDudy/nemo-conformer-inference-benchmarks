@@ -44,3 +44,12 @@ P.S. Max diff is still big because of some bug in my model code. It doesn't matt
 # [Issue](https://github.com/microsoft/onnxruntime/issues/17689)
 # [Weigths](https://drive.google.com/drive/folders/1knactAG-JoTqSjwhXbCDnidrNnB58l0D?usp=share_link) 
 Script `compare_torch_vs_ort_outputs.py` already has onnx export, so `my_model.onnx` is unnecessary
+
+# Env
+```
+CUDA Version: 12.1
+
+torch==2.0.1
+onnx==1.14.0
+onnxruntime-gpu==1.16.1
+```
