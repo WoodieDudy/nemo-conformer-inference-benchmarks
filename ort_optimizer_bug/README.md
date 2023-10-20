@@ -40,3 +40,7 @@ pytorch with ort max difference:  tensor(4.0938, device='cuda:0')
 pytorch with ort mean difference:  tensor(0.0589, device='cuda:0')
 ```
 P.S. Max diff is still big because of some bug in my model code. It doesn't matter
+
+# [Issue](https://github.com/microsoft/onnxruntime/issues/17689)
+# [Weigths](https://drive.google.com/drive/folders/1knactAG-JoTqSjwhXbCDnidrNnB58l0D?usp=share_link) 
+Script `compare_torch_vs_ort_outputs.py` already has onnx export, so `my_model.onnx` is unnecessary
