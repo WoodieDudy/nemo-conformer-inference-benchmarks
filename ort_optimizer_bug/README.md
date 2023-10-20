@@ -34,6 +34,14 @@ onnxruntime_session = ort.InferenceSession(
     sess_options=sess_options,
 ```
 
+4. Cast model to fp32 instead fp16
+```python
+# replace this
+model = InputOutputTypeCast(model.to(torch.float16), dtype=torch.float16)
+# on this
+model = InputOutputTypeCast(model.to(torch.float32), dtype=torch.float32)
+```
+
 Output:
 ```
 pytorch with ort max difference:  tensor(4.0938, device='cuda:0')
