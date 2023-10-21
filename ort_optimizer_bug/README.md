@@ -55,6 +55,8 @@ Script `compare_torch_vs_ort_outputs.py` already has onnx export, so `my_model.o
 
 # Env
 ```
+Image: nvcr.io/nvidia/pytorch:23.07-py3
+GPU: A100
 CUDA Version: 12.1
 
 torch==2.0.1
