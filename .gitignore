@@ -1,2 +1,3 @@
 __pycache__
 trt_vs_onnx_benchmark/models
+dynamic_trt_is_slow/trtexec_output
